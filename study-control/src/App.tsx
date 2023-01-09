@@ -1,19 +1,9 @@
+import Button from "./components/Button/button";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello, world! React JS
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button />
     </div>
   );
 }
